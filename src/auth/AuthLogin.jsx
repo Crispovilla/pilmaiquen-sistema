@@ -14,58 +14,8 @@ const AuthLogin = () => {
     name: "",
     password: "",
   });
-  //login con firebase
-
-  /*   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setError("");
-    try {
-      await loginAuth(email, password);
-    } catch (e) {
-      setError(e.message);
-      console.log(e.message);
-    }
-  }; */
-  /*   const user = [email, password];
-  console.log(user); */
-  /*   const [user, setUser] = useState({
-    email: "",
-    password: "",
-  });
-  const { loginAuth } = useAuth();
-  const navigate = useNavigate();
-  const [error, setError] = useState();
-
-  const handleChange = ({ target: { name, value } }) =>
-    setUser({ ...user, [name]: value });
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setError("");
-    try {
-      await loginAuth(user.email, user.password);
-      navigate("/");
-    } catch (error) {
-      setError(error.message);
-    }
-  }; */
-  /*   const handleLoginGoogle = (e) => {
-    e.preventDefault();
-    console.log("Google login");
-  }; */
   const navigate = useNavigate();
   const { login } = useContext(authContext);
-
-  /*   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setError("");
-    try {
-      await login(email, password);
-      navigate("/");
-    } catch (error) {
-      setError(error.message);
-    }
-  }; */
 
   //login normal
   const onLogin = async (e, name = "") => {
