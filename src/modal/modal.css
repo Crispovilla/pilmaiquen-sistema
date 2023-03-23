@@ -1,0 +1,56 @@
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-modal {
+  width: 500px;
+  height: 600px;
+  background: white;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 110, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+}
+.encabezado-modal {
+  color: #111628;
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #a8a8a8;
+}
+
+.cerrar-modal {
+  position: absolute;
+  font-size: 30px;
+  top: 10px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  border-radius: 5px;
+  color: #111628;
+}
+.cerrar-modal:hover {
+  color: #f9ba1a;
+  top: 0;
+  right: 10;
+  font-size: 40px;
+}
+h1 {
+  color: #111628;
+}

@@ -1,0 +1,15 @@
+.home-container {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.home-container h6 {
+  color: white;
+  font-weight: 100;
+  padding-top: 40px;
+}
+.user-logout {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}

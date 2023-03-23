@@ -1,0 +1,44 @@
+.ingresar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-left: 70px;
+}
+
+.formulario {
+  grid-area: 1 / 2 / 2 / 4;
+  margin-top: 120px;
+}
+.formulario h3 {
+  color: #f9ba1a;
+}
+.imagen {
+  grid-area: 1 / 4 / 2 / 6;
+}
+
+.imagen {
+  border: none;
+}
+.imagen input {
+  border-bottom-style: none !important;
+}
+
+.ingresar input,
+.descripcion {
+  border-radius: 0;
+  border-color: #f9ba1a;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+  background-color: transparent;
+}
+textarea:focus,
+textarea:active {
+  background-color: transparent !important;
+  color: #f9ba1a !important;
+  border-color: transparent !important;
+  border-bottom: 2px solid #f9ba1a !important;
+}

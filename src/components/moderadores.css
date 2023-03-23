@@ -1,0 +1,19 @@
+h3 {
+  margin: 0;
+  padding: 0;
+}
+.container-moderadores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 30px;
+}
+.container-moderadores label {
+  color: white;
+  padding-top: 20px;
+}
+.container-form-moderadores {
+  width: 600px;
+  padding-top: 30px;
+}

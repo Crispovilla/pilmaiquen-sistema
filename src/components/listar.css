@@ -1,0 +1,66 @@
+.listar {
+  position: absolute;
+  margin-left: 20rem;
+  margin-top: 8rem;
+  color: white;
+  width: 70vw;
+}
+
+.container-img img {
+  max-height: 65px;
+  max-width: auto;
+  border: 0.5px solid white;
+  border-radius: 5px;
+}
+.form-control {
+  background-color: transparent;
+  color: white;
+  border: 0, 1px solid #f9ba1a;
+  padding: 10px;
+}
+
+.label {
+  color: #f9ba1a;
+  font-size: 0.8rem;
+  padding: 20px;
+}
+.label input {
+  border-radius: 0;
+  border-color: #f9ba1a;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+  background-color: transparent;
+}
+
+input:focus,
+input:active {
+  background-color: transparent !important;
+  color: #f9ba1a !important;
+  border-color: transparent !important;
+  border-bottom: 2px solid #f9ba1a !important;
+}
+.box-dos {
+  padding: 10px;
+}
+
+.box-dos img {
+  max-height: 340px !important;
+  max-width: auto !important;
+}
+.box-dos input {
+  padding: 20px;
+  border-radius: 0;
+  border-color: #f9ba1a;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+  background-color: transparent;
+  width: 100%;
+}
+
+.btn {
+  margin-right: 20px !important;
+}

@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+.container {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  text-align: center;
+
+  padding: 20px;
+}
+.container img {
+  height: 350px;
+  width: auto;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 10px 10px 100px;
+  background-color: #111628;
+  border-radius: 20px;
+  border-color: #74b3ad;
+  box-shadow: rgba(116, 179, 173, 0.1) 0px 20px 30px;
+}
+.login-form h2 {
+  color: #d6574b;
+  font-size: 3rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+  margin: 30px;
+}
+.login-form hr {
+  color: #74b3ad;
+  margin: 20px 10px 30px 10px;
+}
+.login-form input {
+  border-radius: 20px;
+  background-color: #74b3ad;
+  border: 0;
+  margin-top: 20px;
+}
+.login-form input::placeholder {
+  color: #111628;
+}
+.login-form input:focus {
+  background-color: #111628;
+  color: #111628;
+  border: 1px solid #d6574b;
+  transition: all 0.3s ease;
+}
+.login-form input:focus::placeholder {
+  color: #74b3ad;
+}
+.button-cuatro {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 3rem;
+  border-radius: 30px;
+  background: #111628;
+  background-size: 400%;
+  color: #74b3ad;
+  border: 1px solid #74b3ad;
+  margin: 40px 90px 10px;
+}
+
+.button-cuatro:hover::before {
+  transform: scaleX(1);
+}
+.button-cuatro:hover {
+  border: 0;
+  transition: all 0.5s ease;
+}
+.button-cuatro:hover span {
+  color: #111628;
+}
+.button-cuatro-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button-cuatro::before {
+  content: "";
+  color: #111628;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(83.2deg, #d6574b 10.8%, #92362d 94.3%);
+  transition: all 0.47s;
+}
+.google-sign-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.span-login {
+  color: #74b3ad;
+}
+.google-sign {
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-login {
+  position: absolute;
+
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+}
+.container-footer {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.container-footer h6 {
+  color: #74b3ad;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
